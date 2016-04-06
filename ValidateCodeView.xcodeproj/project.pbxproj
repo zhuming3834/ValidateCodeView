@@ -15,6 +15,8 @@
 		1008A81B1C9263B300A58D95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1008A8191C9263B300A58D95 /* LaunchScreen.storyboard */; };
 		1008A8261C9263B300A58D95 /* ValidateCodeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1008A8251C9263B300A58D95 /* ValidateCodeViewTests.m */; };
 		1008A8311C9263B300A58D95 /* ValidateCodeViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1008A8301C9263B300A58D95 /* ValidateCodeViewUITests.m */; };
+		1008A8401C92641100A58D95 /* ValidateCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1008A83F1C92641100A58D95 /* ValidateCodeView.m */; };
+		1008A8431C9272CF00A58D95 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1008A8421C9272CF00A58D95 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		1008A82C1C9263B300A58D95 /* ValidateCodeViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidateCodeViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1008A8301C9263B300A58D95 /* ValidateCodeViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidateCodeViewUITests.m; sourceTree = "<group>"; };
 		1008A8321C9263B300A58D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1008A83E1C92641100A58D95 /* ValidateCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidateCodeView.h; sourceTree = "<group>"; };
+		1008A83F1C92641100A58D95 /* ValidateCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidateCodeView.m; sourceTree = "<group>"; };
+		1008A8411C9272CF00A58D95 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		1008A8421C9272CF00A58D95 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				1008A80F1C9263B300A58D95 /* AppDelegate.m */,
 				1008A8111C9263B300A58D95 /* ViewController.h */,
 				1008A8121C9263B300A58D95 /* ViewController.m */,
+				1008A8411C9272CF00A58D95 /* SecondViewController.h */,
+				1008A8421C9272CF00A58D95 /* SecondViewController.m */,
+				1008A83E1C92641100A58D95 /* ValidateCodeView.h */,
+				1008A83F1C92641100A58D95 /* ValidateCodeView.m */,
 				1008A8141C9263B300A58D95 /* Main.storyboard */,
 				1008A8171C9263B300A58D95 /* Assets.xcassets */,
 				1008A8191C9263B300A58D95 /* LaunchScreen.storyboard */,
@@ -270,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1008A8431C9272CF00A58D95 /* SecondViewController.m in Sources */,
 				1008A8131C9263B300A58D95 /* ViewController.m in Sources */,
+				1008A8401C92641100A58D95 /* ValidateCodeView.m in Sources */,
 				1008A8101C9263B300A58D95 /* AppDelegate.m in Sources */,
 				1008A80D1C9263B300A58D95 /* main.m in Sources */,
 			);
